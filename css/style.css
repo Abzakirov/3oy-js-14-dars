@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1490px;
+  padding: 20px 20px;
+}
+.line {
+  width: 864px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.shad {
+  background: #fff;
+  box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.chiz {
+  width: 1px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #000;
+}
+.cardc{
+  background: url(/assets/img/img1.png);
+  width: 552px;
+  height: 256px;
+}
+.cardc2{
+  background: url(/assets/img/img2.png);
+  width: 552px;
+  height: 256px;
+}
+.cardc3{
+  background: url(/assets/img/img3.png);
+  width: 552px;
+  height: 256px;
+}
+.cardc4{
+  background: url(/assets/img/img4.png);
+  width: 552px;
+  height: 256px;
+}
+.cardc5{
+  background: url(/assets/img/img5.png);
+  width: 552px;
+  height: 256px;
+}
+.cardc6{
+  background: url(/assets/img/img6.png);
+  width: 552px;
+  height: 256px;
+}
+.bgs{
+  background: url(/assets/img/Maskroup.png);
+  width: 1300px;
+  height: 500px;
+}
+@media (min-width: 1485px) {
+  .container {
+    max-width: 1490px;
+  }
+}
